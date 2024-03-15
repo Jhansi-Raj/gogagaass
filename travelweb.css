@@ -5,13 +5,8 @@ body {
     padding: 0;
 }
 
-.navbg {
-    background-color: white;
-
-}
-
 .bg-container {
-    background-image: url('https://images.unsplash.com/photo-1563693267403-111c5d856e49?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D');
+    background-color: white;
     height: 100%;
     background-size: cover;
     display: flex;
@@ -23,7 +18,7 @@ body {
     background-color: transparent;
     display: flex;
     overflow: auto;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 5px;
 }
 
@@ -67,26 +62,26 @@ body {
 }
 
 .heading {
-    color: #ffffff;
+    color: black;
     font-family: cursive;
     text-align: center;
     font-size: 45px;
 }
 
 .heading1 {
-    color: #ffffff;
+    color: black;
     font-family: "cursive";
     font-size: 25px;
 }
 
 .para1 {
-    color: #ffffff;
+    color: black;
     font-size: 15px;
     font-family: "Sans-Serif";
 }
 
 .tagline {
-    color: #ffffff;
+    color: black;
     font-family: cursive;
     text-align: center;
     margin-top: 0px;
