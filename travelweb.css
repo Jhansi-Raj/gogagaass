@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbg {
+    background-color: white;
+
+}
+
+.bg-container {
+    background-image: url('https://images.unsplash.com/photo-1563693267403-111c5d856e49?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D');
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.cardcontainer {
+    background-color: transparent;
+    display: flex;
+    overflow: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.img1 {
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.img2 {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.insidecard1 {
+    padding: 10px;
+}
+
+.custom-btn {
+    background-color: #7C533D;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    color: #ffffff;
+    font-family: "cursive";
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: cursive;
+    text-align: center;
+    font-size: 45px;
+}
+
+.heading1 {
+    color: #ffffff;
+    font-family: "cursive";
+    font-size: 25px;
+}
+
+.para1 {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Sans-Serif";
+}
+
+.tagline {
+    color: #ffffff;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+@media (min-width:768px) {
+
+    .custom-btn {
+        background-color: #bd693c;
+    }
+
+    .cardcontainer {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+    }
+
+    .img1 {
+        height: 300px;
+        width: 300px;
+        border-radius: 8px;
+    }
+}
